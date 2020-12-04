@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Thank you for visiting my repo, used for storing and deploying my first ever password generator web application using newly learned JavaScript. I found this task to be equal parts challenging and intuitive, and ultimately rewarding.
+Thank you for visiting my repo, used for storing and deploying my password generator web application using newly learned JavaScript. I created this application for an employee upon request, as they had access to private and sensitive information and needed to quickly generate and use strong and unique passwords to secure said information.I found this task to be equal parts challenging and intuitive, and all parts fun!
 
 ## Instructions
 
@@ -22,6 +22,8 @@ Thank you for visiting my repo, used for storing and deploying my first ever pas
 
 ## Preview
 
+<img scr="", width 400, height="300">
+
 ## Conclusion
 
-This was my first attempt at creating a password generator. I hope you liked my work. Thank you for visiting. Cheers!
+This is my repository for storing and deploying my password generator web application. I hope you liked my work. Thank you for visiting. Cheers!
