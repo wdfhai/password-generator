@@ -8,21 +8,14 @@ console.log(numbers);
 var special = ("!@#$%&").split("");
 console.log(special);
 
-const range = (start, stop, step) => Array.from({ length: (stop - start) / step + 1}, (_, i) => start + (i * step));
-var rng2 = range(8,127,1);
-console.log(rng2);
-
-var rng = Array.from({length: 120}, (v, i) => i);
-console.log(rng);
-
-var list = [];
+var range = [];
 for (var i = 8; i <= 128; i++) {
-    list.push(i);
+    range.push(i);
 }
-console.log(list);
-
+console.log(range);
 
 alert("Welcome to the Employee Password Generator.");
+alert("This web application will create a random password between 8 and 128 characters long.")
 alert("Follow the prompts to choose conditions for your password.");
 alert("Use Copy/Paste to use the password of your choice.");
 alert("Use a secure method, such as a password manager, to store your passwords.");
@@ -34,8 +27,10 @@ var wantSpecial = confirm("Press OK to include the following special characters 
 
 var length = prompt("How many characters do you require? Choose between 8 and 128.");
 var lengthInt= parseInt(length);
-console.log(length);
-console.log(lengthInt);
+
+if (range.includes(lengthInt)) {
+  console.log(lengthInt);
+} 
 
 
 
