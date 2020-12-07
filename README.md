@@ -22,7 +22,7 @@ Thank you for visiting my repo, used for storing and deploying my password gener
 
 ## Preview
 
-<img src="preview.png", width="400px", height="300px">
+<img src="preview.png" width="400px" height="300px">
 
 ## Conclusion
 
