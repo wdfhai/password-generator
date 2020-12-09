@@ -7,10 +7,11 @@ Thank you for visiting my repo, used for storing and deploying my password gener
 ## Instructions
 
 1. Load the page or the index.html file.
-2. Follow the prompts carefully.
-3. Once you find a password that you like, use Copy/Paste to use it in your required area.
-4. Don't forget to save the password somewhere safe. An encrypted password manager is recommended.
-5. If you have any issues, try starting from the beginning.
+2. Click the "Generate Password" button to start (or restart).
+3. Follow the prompts carefully.
+4. Once you find a password that you like, use Copy/Paste to use it in your required area.
+5. Don't forget to save the password somewhere safe. An encrypted password manager is recommended.
+6. If you have any issues, try restarting.
 
 ## Password Characteristics
 
