@@ -19,8 +19,7 @@ var range = [];
 for (var i = 8; i <= 128; i++) {
     range.push(i);
 }
-// console.log(range);
-// console.log(range[120]);
+
 
 alert("Welcome to the Employee Password Generator.");
 alert("This web application will generate a random password between 8 and 128 characters long.")
@@ -72,7 +71,7 @@ if ((wantLowerCase) && (wantUpperCase) && (wantNumbers) && (wantSpecial)) {
 };
 
 var totalInt = 1;
-while ((totalInt <=7) || (totalInt>=129)) {
+while ((totalInt <=7) || (totalInt>=129) || (totalInt === "")) {
   var total = prompt("How many characters do you require? Choose between 8 and 128.");
   var totalInt= parseInt(total);
 
@@ -96,18 +95,17 @@ var password1 = pw.join("");
 console.log(password1);
 alert("Your password is " + password1);
 
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
 function writePassword() {
-  var password = document.querySelector("#password");
-  password = password1;
-  console.log(password);
+  var x = document.querySelector("#password");
+  console.log(x);
+  x.innerHTML = password1;
+  console.log(password1);
 
 }
 
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 
