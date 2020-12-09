@@ -20,6 +20,8 @@ Thank you for visiting my repo, used for storing and deploying my password gener
 
 ## Deployed Link
 
+https://wdfhai.github.io/password-generator/index.html
+
 ## Preview
 
 <img src="preview.png" width="400px" height="300px">
